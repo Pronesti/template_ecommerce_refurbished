@@ -1,0 +1,16 @@
+<div class='card m-2 float-left' style='width: 18rem;height: 28rem'>
+<div class='card-body'>
+<img src='{{url}}' class='card-img-top' style='width=200px; height:200px;'>
+<h5 class='card-title text-center'>
+{{name}}
+</h5>
+<ul class='list-group m-2'>
+<li class='list-group-item'>
+Cantidad: {{quantity}}
+</li>
+<li class='list-group-item'>
+Precio: ${{price}}
+</li>
+</ul>
+<a href='index.php?item={{key}}' class='btn btn-primary w-100'>Comprar</a>
+</div></div>

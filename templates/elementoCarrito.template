@@ -1,0 +1,15 @@
+<tr>
+<th scope='row'>
+{{key}}
+</th>
+<td>
+<img src='{{url}}' style='width:70px;border-radius:100%'></td><td>
+{{name}}
+</td>
+<td>
+{{price}}
+</td>
+<td>
+<a class='btn btn-outline-danger' href='index.php?page=eliminarDelCarrito&item={{posicion}}'> X </a>
+</td>
+</tr>
